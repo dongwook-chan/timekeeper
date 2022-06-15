@@ -65,12 +65,11 @@ def timesheet() -> None:
                         'timeZone': 'Asia/Seoul',
                     },
                     # TODO: URL join method
-                    'source': (
+                    'description': (
                         'https://my.timesheet.io/tasks/show/'
                         + request.json['item']['id']
                     ),
                     'transparency': "transparent",
-                    # 'description':
                 }
                 event = service.events().insert(
                     # TODO: to config
