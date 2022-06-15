@@ -130,3 +130,9 @@ dmypy.json
 
 # VSC config
 .vscode/
+
+# Google Ouath2 token
+token.json
+
+# nohup
+nohup.out
