@@ -76,7 +76,7 @@ def timesheet() -> None:
                     # TODO: to config
                     calendarId=(
                         'ivaaltu751ft6rlqkkb1viqqgs'
-                        '@group.calendar.google.com',
+                        '@group.calendar.google.com'
                     ),
                     body=event,
                 ).execute()
