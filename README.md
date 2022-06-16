@@ -11,4 +11,5 @@ $ source env/bin/activate
 (env) $ pre-commit install
 ```
 ## TODO
-* Handle task edit event
+* Listen to & handle task edit event
+* Can listen to Clikcup triggered event?
