@@ -10,3 +10,5 @@ $ source env/bin/activate
 # activate pre-commit hooks
 (env) $ pre-commit install
 ```
+## TODO
+* Handle task edit event
