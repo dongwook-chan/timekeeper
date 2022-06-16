@@ -13,3 +13,5 @@ $ source env/bin/activate
 ## TODO
 * Listen to & handle task edit event
 * Can listen to Clikcup triggered event?
+* duplicate events created
+* log 
