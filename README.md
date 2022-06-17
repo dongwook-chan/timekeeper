@@ -15,3 +15,4 @@ $ source env/bin/activate
 * Can listen to Clikcup triggered event?
 * duplicate events created
 * log 
+* color scheme (productivity vs non-, evaluation)
