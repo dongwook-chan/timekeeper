@@ -10,3 +10,9 @@ $ source env/bin/activate
 # activate pre-commit hooks
 (env) $ pre-commit install
 ```
+## TODO
+* Listen to & handle task edit event
+* Can listen to Clikcup triggered event?
+* duplicate events created
+* log 
+* color scheme (productivity vs non-, evaluation)
