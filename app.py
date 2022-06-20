@@ -17,8 +17,10 @@ def index():
 
 
 def get_google_cloud_service() -> Resource:
-    if os.path.exists('token.json'):
-        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    if os.path.exists('google_token.json'):
+        creds = Credentials.from_authorized_user_file(
+            'google_token.json', SCOPES
+        )
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
@@ -30,7 +32,7 @@ def get_google_cloud_service() -> Resource:
             """
             pass    # handle exception
 
-    with open('token.json', 'w') as token:
+    with open('google_token.json', 'w') as token:
         token.write(creds.to_json())
 
     try:
