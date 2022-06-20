@@ -16,3 +16,5 @@ $ source env/bin/activate
 * duplicate events created
 * log 
 * color scheme (productivity vs non-, evaluation)
+* restart script
+* include venv activation in start/restart script
