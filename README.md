@@ -19,3 +19,4 @@ $ source env/bin/activate
 * restart script
 * include venv activation in start/restart script
 * clickup automation
+* start server on boot
