@@ -20,3 +20,4 @@ $ source env/bin/activate
 * include venv activation in start/restart script
 * clickup automation
 * start server on boot
+* timesheet: bulk get events and update to calendar if not duplicate
